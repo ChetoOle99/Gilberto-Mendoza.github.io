@@ -61,7 +61,7 @@ a:hover{ text-decoration:underline; text-underline-offset:4px; }
 }
 
 .topbar-inner{
- /* background: var(--header);   /* ← ADD THIS LINE */
+ /* background: var(--header);    */
   width: min(var(--max), calc(100% - 34px));
   margin: 0 auto;
   padding: 12px 14px;
@@ -69,7 +69,7 @@ a:hover{ text-decoration:underline; text-underline-offset:4px; }
   align-items:flex-start;
   justify-content:space-between;
   gap: 14px;
-  border-radius: 14px;         /* optional but looks very polished */
+  border-radius: 14px;         
 }
 
 .brand-name{ font-weight: 900; font-size: 18px; }
@@ -209,7 +209,7 @@ section[id] {
   /*padding: 16px;*/
   box-shadow: var(--shadow);
 }
-.card-h{ margin:0 0 10px; font-weight: 950; font-size: 15px; }
+.card-h{ margin:0 0 10px; padding-left: 05px; font-weight: 950; font-size: 15px; }
 
 /* Skills grid */
 .skills-grid{
@@ -242,8 +242,8 @@ section[id] {
  /* gap: 12px;*/
   margin-top: 12px;
 }
-.k{ color: var(--faint); font-weight: 950; font-size: 11px; text-transform: uppercase; letter-spacing: .10em; }
-.v{ margin-top: 6px; color: var(--muted); font-weight: 550; }
+.k{ color: var(--faint); padding-left: 05px; font-weight: 950; font-size: 11px; text-transform: uppercase; letter-spacing: .10em; }
+.v{ margin-top: 6px; padding-left: 05px; color: var(--muted); font-weight: 550; }
 
 /* Align skills pills into consistent columns */
 .skills-grid .pill-row{
